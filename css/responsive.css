@@ -1,0 +1,186 @@
+@media(max-width: 950px){
+
+
+  .call-to-action-intro img{
+    width: 95%;
+    margin-top: 6rem;
+  }
+
+  .testimonials-cards{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+    margin-top: 4rem;
+
+  }
+
+  .testimonial-card{
+    max-width: none;
+  }
+
+  .minor-call-to-action{
+    width: 100%;
+  }
+
+  .minor-call-to-action h2{
+    font-size: 1.2rem;
+  }
+
+  .minor-call-to-action p {
+    width: 100%;
+    font-size: .9rem;
+    padding: 0 15px;
+  }
+
+
+
+  .call-to-action-form{
+    grid-template-columns: 0;
+    grid-template-rows: repeat(2, 1fr);
+
+  }
+
+  input[type="email"]{
+    margin-bottom: 15px;
+  }
+
+  .minor-btn{
+    width: 100%;
+    grid-column: 1/3;
+    font-size: 1rem;
+  }
+
+
+  .footer-container{
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .footer-logo{
+    justify-content: center;
+  }
+
+  .location{
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .contacts{
+    margin: 0 auto;
+  }
+
+  .about-us, .with-us{
+    align-items: center;
+  }
+
+
+
+}
+
+@media(max-width: 600px){
+
+  .navbar {
+    display: flex;
+    font-size: 11px;
+  }
+
+  .navbar li{
+    padding-right: 10px;
+  }
+
+  .call-to-action-intro img{
+    margin-top: 10rem;
+  }
+
+  .call-to-action-intro{
+    background-position: bottom;
+    height: 560px;
+  }
+
+  .logo img{
+
+      width: 60%;
+      height: 60%;
+  }
+
+  h1{
+    font-size: 1.8rem;
+    width: 80%;
+  }
+
+  .call-to-action-intro p {
+    width: 95%;
+    margin: 30px auto 40px auto;
+  }
+
+  .call-to-action-btn{
+    width: 60%;
+  }
+
+  .cards{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, minmax(12.5rem, 1fr));
+    margin-top: 23rem;
+  }
+
+  h3{
+    padding: 30px 0 10px 0;
+  }
+
+  .security img{
+    width: 70px;
+    height: 88px;
+  }
+
+  .stay-productive-sect{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    align-content: flex-start;
+  }
+
+  .stay-productive-desc{
+    padding: 0;
+  }
+
+  .stay-productive-desc h3{
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 0 0 20px 5px;
+  }
+
+  .minor-btn{
+    width: 100%;
+  }
+
+  .footer-logo{
+    justify-content: flex-start;
+  }
+
+  .location{
+    width: 100%;
+  }
+
+  .contacts{
+    margin: 0;
+  }
+
+
+
+  .phone-item {
+    padding-left: 40px;
+    margin: 0rem 0 1rem;
+    font-size: .8rem;
+}
+
+  .email-item {
+    padding-left: 40px;
+    margin: 1rem 0;
+    font-size: .8rem;
+}
+
+.about-us, .with-us{
+  align-items: flex-start;
+}
+
+}
